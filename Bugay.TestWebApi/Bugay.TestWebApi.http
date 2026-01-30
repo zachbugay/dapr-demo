@@ -1,0 +1,13 @@
+@Bugay.TestWebApi_HostAddress = http://localhost:5136
+
+GET {{Bugay.TestWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{Bugay.TestWebApi_HostAddress}}/neworder HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1
+}

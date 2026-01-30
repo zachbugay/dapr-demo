@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "DaprDemo",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

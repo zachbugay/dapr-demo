@@ -1,0 +1,8 @@
+version: 1
+common:
+  resourcesPath: ./resources
+apps:
+  - appID: bugay-testwebapi
+    appDirPath: ./Bugay.TestWebApi
+    command: ["dotnet", "run"]
+    
